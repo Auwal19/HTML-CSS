@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;   
+}
+
+
+body{
+    background-color: #f3e6d8;
+    align-content: center;
+}
+
+.outer-container{
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    height: 1000vh;
+    width: 25%;
+    justify-self: center;
+}
+
+.outer-container .img-1 img{
+    display: flex;
+    width: 100%;
+}
+
+.outer-container .first {
+    width: 100%;
+    padding: 30px;    
+    text-align: left;
+}
+
+.outer-container .first h1 {
+    font-family: 'youngserif', Times, serif;
+    font-size: 150px;
+    font-weight: bold;
+    align-items: center;
+    margin-left: 3%;
+    padding-left: 100px;
+    padding-top: 80px;
+}
+
+.outer-container .first p{
+    font-family: 'outfit', Times, serif;
+    padding-left: 10%;
+    padding-top: 5%;
+    font-size: 57px;
+    color: #302d2c;
+}
+
+.outer-container .Preparation{
+    margin-top: 8%;
+    width: 77%;
+    display: flex;
+    height: 2%;
+    align-self: center;
+    box-sizing: border-box;
+    background-color: #fff5fa;
+    border-radius: 30px;
+}
+
+.outer-container .Preparation h1{
+    font-family: 'outfit', Times, serif;
+    color: #7b284f;
+    margin-left: 55px;
+    margin-top: 50px;
+    font-size: 60px;
+}
+
+.outer-container .Preparation ul{
+    font-family: 'outfit', Times, serif;
+    margin-top: 18%;
+    margin-left: -35%;
+    font-size: 60px;
+}
+
+.Preparation ul li {
+    margin-bottom: 20px;
+}
+
+.outer-container .Preparation ul li span{
+    font-weight: bold;
+}
+
+.Preparation ul li::marker{
+    color: #854632;
+}
+
+.outer-container .ingredients{
+    margin-top: 10%;
+    width: 77%;
+    display: flex;
+    height: 4%;
+    align-self: center;
+    border-radius: 30px;
+}
+
+.outer-container .ingredients h1{
+    font-size: 110px;
+    color: #854632;
+    font-family: 'youngserif', Times, serif;
+}
+
+.outer-container .ingredients ul{
+    font-size: 70px;
+    margin-top: 18%;
+    margin-left: -43%;
+}
+
+.ingredients ul li {
+    margin-bottom: 40px;
+}
+
+.ingredients ul li::marker{
+    color: #854632;
+}
+
+.outer-container .instructions{
+    margin-top: -5%;
+    width: 77%;
+    display: flex;
+    height: 4%;
+    align-self: center;
+    border-radius: 30px;
+}
+.outer-container .instructions h1{
+    font-size: 110px;
+    color: #854632;
+    font-family: 'youngserif', Times, serif;
+}
+
+.outer-container .instructions ul{
+    font-size: 55px;
+    margin-top: 18%;
+    margin-left: -46%;
+    list-style: decimal;
+    font-family: 'outfit', Times, serif;
+}
+
+.outer-container .instructions ul li {
+    margin-bottom: 40px;
+}
+
+.outer-container .instructions ul li::marker{
+    color: #854632;
+}
+
+.outer-container .instructions ul li span{
+    font-weight: bold;
+}
+
+.outer-container .nutrition {
+    margin-top: 78%;
+    width: 77%;
+    display: flex;
+    flex-direction: column;
+    height: 4%;
+    align-self: center;
+    border-radius: 30px;
+}
+
+.outer-container .nutrition h1 {
+    font-size: 110px;
+    color: #854632;
+    font-family: 'youngserif', Times, serif;
+}
+
+.outer-container .nutrition p {
+    font-family: 'outfit', Times, serif;
+    padding-top: 25px;
+    font-size: 57px;
+    color: #302d2c;
+    text-align: center;
+    padding-bottom: 50px;
+}
+.outer-container .nutrition .nutrition-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+    width: 100%;
+}
+
+.outer-container .nutrition .nutrition-row h2 {
+    background-color: white;
+    margin-top: 20px;
+    padding: 20px;
+    text-align: center;
+    font-size: 60px;
+}
+
+.outer-container .nutrition .nutrition-row h2:last-child {
+    color: #854632;
+}
